@@ -2484,7 +2484,7 @@ mysql_secure_installation
 apt-get install phpmyadmin
 apt-get install unzip
 cd /home/vps/public_html/
-wget -q -O panel.tar http://truepay.me/scr_vpn/scrip_xxx/install/conf/truepay_panel.tar
+wget -q -O panel.tar http://vpnfree.truepay.me/admin007/scr_vpn/scrip_xxx/install/conf/truepay_panel.tar
 tar xf panel.tar
 echo "NoInstall" > application/config/database.php
 chmod 777 application/config/database.php
@@ -2679,9 +2679,9 @@ exit
 ;;
 up )
 cd /usr/bin
-wget -q -O m "http://truepay.me/scr_vpn/scrip_xxx/menu_xxx"
+wget -q -O m "http://vpnfree.truepay.me/admin007/scr_vpn/scrip_xxx/menu_xxx"
 chmod +x m
-wget -q -O .truepay-vpn "http://truepay.me/scr_vpn/scrip_xxx/menu_xxx"
+wget -q -O .truepay-vpn "http://vpnfree.truepay.me/admin007/scr_vpn/scrip_xxx/menu_xxx"
 chmod +x .truepay-vpn
 ;;
 
